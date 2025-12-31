@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hand Gesture Particle Morphing</title>
+    
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="info">
+        <b>Gesture Controls:</b><br><br>
+        Open Palm: Random Cloud<br>
+        Pinch (Thumb + Index): Heart Shape<br>
+        Two Fingers Up: Saturn Shape<br>
+        Move Hand: Rotate & Color Shift
+    </div>
+
+    <video id="webcam" autoplay playsinline></video>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+</html>
