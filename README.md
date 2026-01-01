@@ -25,7 +25,7 @@ Move your hand, pinch your fingers, or raise them the particles respond instantl
 - **Three.js** - WebGL-based 3D rendering
 - **MediaPipe Hands** - Hand landmark detection
 - **WebGL** - High-performance graphics
-- **HTML, CSS, JavaScript** - Lightweight and framework-free
+- **HTML, CSS, JavaScript** - Lightweight and framework free
 
 ---
 
